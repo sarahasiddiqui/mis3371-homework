@@ -1,0 +1,44 @@
+/*
+Program name: style.css
+Author: Sarah Siddiqui
+Date created: 02/26/2026
+Date last edited: 02/27/2026
+Version: 1.0
+Description: HW 1
+*/
+
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+banner {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.form-table {
+    margin: auto;
+    padding: 10px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+   
+}
+
+input[name="first_name"] {
+    background-color: #e6f2ff;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
