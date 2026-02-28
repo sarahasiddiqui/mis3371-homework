@@ -20,7 +20,7 @@ form.addEventListener('submit', function(e) {
         return; // Stop here if passwords don't match
     } 
 
-    const firstName = document.getElementById('firstName').value;
+    const firstName = document.getElementById('firstName').value.trim();
     if(firstName === "" ) {
         alert("FIRST NAME CANNOT BE EMPTY");
     }
