@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+
 <head>
     <title>Patient Registration</title>
 </head>
@@ -84,4 +83,3 @@ United States
 </p>
 
 </body>
-</html>
