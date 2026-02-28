@@ -9,6 +9,8 @@ const form = document.getElementById('registrationForm');
 const errorMsg = document.getElementById('errorMsg');
 
 form.addEventListener('submit', function(e) {
+    alert("Yolo");
+    
     e.preventDefault(); // Prevent default submission
 
     const password = document.getElementById('password').value;
