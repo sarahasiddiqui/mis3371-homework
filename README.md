@@ -5,7 +5,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
 <script src="script.js"></script>
+
 <h1>SS Medical Group</h1>
 
 <p>Today is: </p>
