@@ -8,12 +8,9 @@ Description: HW 1
 */
 
 body {
-    background-color: #f5f7ff;
-    font-family: Georgia, serif;
-    color: #2d2d3a;
-    margin: 0;
-    padding: 0;
-}
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    color: #222;
 
 banner {
     background-color: #004080;
