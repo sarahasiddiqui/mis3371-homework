@@ -19,11 +19,6 @@ form.addEventListener('submit', function(e) {
         errorMsg.textContent = "Passwords do not match!";
         return; // Stop here if passwords don't match
     } 
-
-    const firstName = document.getElementById('firstName').value.trim();
-    if(firstName === "" ) {
-        alert("FIRST NAME CANNOT BE EMPTY");
-    }
     
     // Collect all form data
     const formData = new FormData(form);
