@@ -10,7 +10,7 @@
 
 <h1>SS Medical Group</h1>
 
-<p>Today is: </p>
+<p id="currentDate"></p>
 
 <h2>Patient Registration Form</h2>
 
