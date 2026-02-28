@@ -26,18 +26,13 @@ form.addEventListener('submit', function(e) {
     
     for (let [key, value] of formData.entries()) {
         // Handle checkboxes with same name
-        if (key === "illness") {
-            let illnesses = formData.getAll("illness");
-            summary += "Past Illnesses: " + (illnesses.length ? illnesses.join(", ") : "None") + "\n";
-            break; // skip the rest of illness checkboxes in loop
-        }
-        summary += `${key}: ${value}\n`;
+        console.log(value);
     }
 
     // Show summary in alert
     alert(summary + "\nForm submitted successfully!");
     window.location.href = "thankyou.html";
     
-    // Optionally, reset the form
+    //reset the form
     form.reset();
 });
