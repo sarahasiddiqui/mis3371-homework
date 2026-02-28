@@ -20,11 +20,6 @@ form.addEventListener('submit', function(e) {
         return; 
     } 
     
-
-    // Show summary in alert
-    alert(summary + "\nForm submitted successfully!");
-    window.location.href = "thankyou.html";
-    
     //reset the form
     form.reset();
 });
