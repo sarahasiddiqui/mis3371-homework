@@ -17,17 +17,9 @@ form.addEventListener('submit', function(e) {
     // Password match check
     if(password !== confirmPassword) {
         errorMsg.textContent = "Passwords do not match!";
-        return; // Stop here if passwords don't match
+        return; 
     } 
     
-    // Collect all form data
-    const formData = new FormData(form);
-    let summary = "Patient Registration Summary:\n\n";
-    
-    for (let [key, value] of formData.entries()) {
-        // Handle checkboxes with same name
-        console.log(value);
-    }
 
     // Show summary in alert
     alert(summary + "\nForm submitted successfully!");
