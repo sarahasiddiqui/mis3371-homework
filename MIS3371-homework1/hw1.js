@@ -9,8 +9,6 @@ const form = document.getElementById('registrationForm');
 const errorMsg = document.getElementById('errorMsg');
 
 form.addEventListener('submit', function(e) {
-    alert("Yolo");
-    
     e.preventDefault(); // Prevent default submission
 
     const password = document.getElementById('password').value;
@@ -38,6 +36,7 @@ form.addEventListener('submit', function(e) {
 
     // Show summary in alert
     alert(summary + "\nForm submitted successfully!");
+    window.location.href("thankyou.html")
     
     // Optionally, reset the form
     form.reset();
