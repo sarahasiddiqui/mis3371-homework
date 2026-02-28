@@ -20,6 +20,11 @@ form.addEventListener('submit', function(e) {
         return; // Stop here if passwords don't match
     } 
 
+    const firstName = document.getElementById('firstName').value;
+    if(firstName === "" ) {
+        alert("FIRST NAME CANNOT BE EMPTY");
+    }
+    
     // Collect all form data
     const formData = new FormData(form);
     let summary = "Patient Registration Summary:\n\n";
