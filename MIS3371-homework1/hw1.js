@@ -36,7 +36,7 @@ form.addEventListener('submit', function(e) {
 
     // Show summary in alert
     alert(summary + "\nForm submitted successfully!");
-    window.location.href("thankyou.html")
+    window.location.href("thankyou.html");
     
     // Optionally, reset the form
     form.reset();
