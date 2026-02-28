@@ -18,9 +18,7 @@ form.addEventListener('submit', function(e) {
     if(password !== confirmPassword) {
         errorMsg.textContent = "Passwords do not match!";
         return; // Stop here if passwords don't match
-    } else {
-        errorMsg.textContent = "";
-    }
+    } 
 
     // Collect all form data
     const formData = new FormData(form);
